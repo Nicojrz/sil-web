@@ -1,4 +1,4 @@
-# Copiloto de IA para trámites agrícolas — MVP (Hackday)
+# SIL (web)
 
 Webapp local que simula la futura app Android: un copiloto que ayuda a servidores públicos y
 productores agrícolas hablantes de lenguas indígenas (náhuatl, maya, tsotsil) a comunicarse
@@ -32,7 +32,7 @@ Necesitas una forma de invocar Gemma 4 desde el backend. Dos opciones típicas:
 - **Opción A — Local (recomendado para simular offline):**
   Instalar [Ollama](https://ollama.com) y descargar un modelo Gemma:
   ```bash
-  ollama pull gemma2
+  ollama pull gemma
   ```
   El backend llamará a Ollama en `http://localhost:11434`.
 
